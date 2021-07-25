@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News for 26th July</title>
+	<style type="text/css">
+		body{
+			/*height: 100vh;
+			width: 100vw;*/
+			 background-image: linear-gradient(to right, red , yellow);
+		}
+
+		::-webkit-scrollbar {
+  display: none;
+}
+
+		.slide {
+			width: 1330px;
+			height: 607px;
+			/*height: 95%;
+			width: 95%;*/
+			border: 1px solid black;
+		}
+		#slidetwo {
+			display: none;
+		}
+		#h1slide1 {
+			font-size: 200px;
+		}
+		hr {
+			position: relative;
+
+		}
+
+		button {
+			position: relative;
+			background-color: orange;
+			border: none;
+			color: white;
+			height: 50px;
+			bottom: 20px;
+		}
+		#b1s1 {
+			position: relative;
+			left: 40px;
+			width: 1235px;
+
+		}
+
+		#b2s2 {
+			position: relative;
+			left: 40px;
+			width: 1235px;
+			top: 200px;
+		}
+		#b3s3 {
+			position: relative;
+			left: 40px;
+			width: 1235px;
+			top: 300px;
+		}
+		#b4s4 {
+			position: relative;
+			left: 40px;
+			width: 1235px;
+			top: 400px;
+		}
+		#b5s5 {
+			position: relative;
+			left: 40px;
+			width: 1235px;
+			top: 250px;
+		}
+	</style>
+</head>
+<body>
+	<div id="slideone" class="slide" style="background-image: linear-gradient(to right, red , yellow);">
+		<h1 id="h1slide1">THE NEWS</h1>
+		<hr>
+		<h2 id="h2slide2"> FROM EVERY NOOK AND CORNER PRESENTED BY ARUSH GUPTA</h2>
+		<button id="b1s1" onclick="moveToSlide2()">NEXT SLIDE >> </button>
+	</div>
+	<div id="slidetwo" class="slide">
+		<h1>National News</h1>
+		
+		<hr>
+		<p><h3>Vaccination Drive:</h3><br>
+			<label>Total Doses Administered</label>: 43.3 crores<br>
+			<label>Population fully vaccinated:</label> 9.28 cr<br>
+			<label>% fully vaccinated</label>: 6.8%
+			<h3>Rain news</h3>
+			<h4>IMD predicts rainfall, extremely heavy ones for Himachal Pradesh and Uttarakhand, Gujarat to recieve 'active wet spell' till tommorow</h4>
+			<h3>Coronavirus</h3>
+			<h4>Coronavirus News Updates: India reported 39,742 new Covid cases, 39,972 recoveries, and 535 deaths</h4>
+			<h4>West Bengal has reported zero wastage of Covid-19 vaccine doses since May 1, reveals data provided by the Union Health Ministry. According to data, West Bengal following Tamil Nadu has been the second most efficient state while administering vaccine doses.</h4>
+		</p>
+		<button id="b2s2" onclick="moveToSlide3()">NEXT SLIDE >> </button>
+	</div>
+	<div id="slidethree" class="slide" style="display: none;">
+		<h1>Karnataka</h1>
+		<hr/>
+		<p>
+			<h3>Flood News</h3><Br>
+			<h4>Tungabhadra river is overflowing</h4>
+			<h3>Infrastructure news:</h3>
+			<H4>Ongoing development work likely to be completed by year end: CM<br>
+				Nandi hills will get a ropeway: CM
+			</H4>
+			<h3>Ola News</h3>
+			<h4>Ola asked to stop services in whole Karnataka</h4>
+			<h3>Lockdown and Unlock News</h3>
+			<h4>Places of worship were opened Yesterday<br>
+				After nearly 3 months, two major wholesale marketsthat were shut down during the second wave have been allowed to reopen. While K.R Market reopened on Thursday, Kalasipalyam market opened to traders and the public yesterday.
+			</h4>
+		</p>
+<button id="b3s3" onclick="movetoslide4()">NEXT SLIDE >></button>
+	</div>
+	<div id="slidefour" class="slide" style="display: none">
+		<h1>Cricket News and Schedule</h1>
+		<hr>
+		<p>Sad day for Cricket fans: No match today, but watch out for:
+			<table>
+				<tr>
+					<th>Host</th>
+					<th>Visitor</th>
+					<th>Type of Match</th>
+					<th>Series Status</th>
+				</tr>
+				<tr>
+					<td>West Indies</td>
+					<td>vs Australia</td>
+					<td>One Day International</td>
+					<td> Australia up 1-0</td>
+				</tr>
+				<tr>
+					<td>Sri Lanka</td>
+					<td>vs India</td>
+					<td>Twenty20 International</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>West Indies</td>
+					<td>vs Pakistan</td>
+					<td>Twenty20 International</td>
+					<td> 0-0 First T20</td>
+				</tr>
+				<button id="b4s4" onclick="movetoslide5()">NEXT SLIDE >></button>
+			</table></p>
+	</div>
+	<div id="slidefive" class="slide" style="display: none;">
+		<h1>Football News</h1>
+		<hr>
+		<h3>Football fans enjoy a game packed calendar, today is packed with domestic leagues, below are a few games tomorow in the Olympics you might enjoy</h3>
+		<table>
+			<tr>
+				<th>Team</th>
+				<th>Team</th>
+				<th>Group</th>
+				<th>Time</th>
+			</tr>
+			<tr>
+				<td>United States</td>
+				<td>Australia</td>
+				<td>Group G</td>
+				<td>1:30 PM</td>
+			</tr>
+			<tr>
+				<td>New Zealand </td>
+				<td>Sweden</td>
+				<td>Group G</td>
+				<td>1:30 PM</td>
+			</tr>
+			<tr>
+				<td>Japan</td>
+				<td>Chile</td>
+				<td>Group E</td>
+				<td>4:30 PM</td>
+			</tr>
+			<TR>
+				<td>Canada</td>
+				<td>Great Britain</td>
+				<td>Group E</td>
+				<td>4:30 PM</td>
+			</TR>
+			<tr>
+				<td>Netherlands</td>
+				<td>China</td>
+				<td>Group F</td>
+				<td>5:00 PM</td>
+			</tr>
+			<TR>
+				<td>Brazil</td>
+				<td>Zambia</td>
+				<td>Group 5</td>
+				<TD>5:00 PM</TD>
+			</TR>
+			
+		</table>
+		<button id="b5s5" onclick="movetoslide6()">NEXT>></button>
+	</div>
+	<div id="slidesix" class="slide" style="display: none;">
+		<h1>India Olympics Update</h1>
+		<hr>
+		<table>
+			<tr>
+				<th>Team and Athlete</th>
+				<th>Team and Athlete</th>
+				<th>Sport</th>
+				<th>Date</th>
+				<th>Status</th>
+			</tr>
+			<tr>
+				<td>Ukraine: L Kichenok/N Kichenok</td>
+				<td>India: S Mirza/A Raina</td>
+				<td>Tennis</td>
+				<td>Yesterday</td>
+				<td>L Kichenok/N Kichenok won</td>
+			</tr>
+			<tr>
+				<td>India: PV Sindhu</td>
+				<td>Israel: K Polikarpova</td>
+				<td>Badminton</td>
+				<TD>Yesterday</TD>
+				<td>PV Sindhu won 21-7 and 21-10</td>
+			</tr>
+			<tr>
+				<td>India: M Batra</td>
+				<td>Ukraine: M Pesotska</td>
+				<td>Table Tennis</td>
+				<TD>Yesterday</TD>
+				<td>M. Batra won 4-3</td>
+			</tr>
+			<tr>
+				<td>53 athletes</td>
+				<td>53 athletes</td>
+				<td>Shooting</td>
+				<TD>Yesterday</TD>
+				<td>Equipment Malfunction throws M.Bhaker of India to 12th</td>
+			</tr>
+			<tr>
+				<td>India: M Kom</td>
+				<td>Dominican Republic: M Hernandez</td>
+				<td>Womens Flyweight</td>
+				<TD>Yesterday</TD>
+				<td> M Kom won 4-1</td>
+			</tr>
+			<tr>
+				<td>India team</td>
+				<td>Australia team</td>
+				<td>Hockey</td>
+				<TD>Yesterday</TD>
+				<td>Australia won 7-1</td>
+			</tr>
+			<tr>
+				<td>Multiple Athletes</td>
+				<td>Multiple Athletes</td>
+				<td>Women Gymnastics/Artistic Vaults</td>
+				<TD>Yesterday</TD>
+				<td>India fails</td>
+			</tr>
+			<tr>
+				<td>Multiple Athletes</td>
+				<td>Multiple Athletes</td>
+				<td>Women Gynastics/ Uneven Bars</td>
+				<TD>Yesterday</TD>
+				<td>#86: P Nayak</td>
+			</tr>
+			<tr>
+				<td>Multiple Athletes</td>
+				<td>Multiple Athletes</td>
+				<td>Swimming/Womens 100m backstroke</td>
+				<TD>Yesterday</TD>
+				<td>#2: MP Patel</td>
+			</tr>
+			<tr>
+				<td>Multiple Athletes</td>
+				<td>Multiple Athletes</td>
+				<td>Swimming/Mens 100m backstroke</td>
+				<TD>Yesterday</TD>
+				<td>#5: S Nataraj</td>
+			</tr>
+			<tr>
+				<td>India: T.Rai,P.Jadhav,A.Das</td>
+				<td>Kazakhastan: I.Abdullin,S.Mussayev,D. Gankin</td>
+				<td>Archery</td>
+				<TD>Today</TD>
+				<td></td>
+			</tr>
+			
+		</table>
+		<br>
+		<br>
+		<a href="https://www.google.com/search?q=india+olympics&ei=6ev7YODID-G1mgfqn5WQBQ&oq=india+olympics&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAELEDEIMBEJECMggIABCxAxCDATILCAAQsQMQgwEQkQIyCAgAELEDEIMBMggIABCxAxCDATIICAAQsQMQgwEyCAgAELEDEIMBMgQIABADMgQIABADMgQIABADOgcIABBHELADOgcIABCwAxBDOgoIABCxAxCDARAKOgoIABCxAxCDARANOgQIABANOgoILhCxAxCDARANSgQIQRgAUPG-EVjDxRFg7MgRaAFwAngAgAHNBIgB2wuSAQcwLjYuNS0xmAEAoAEBqgEHZ3dzLXdpesgBCsABAQ&sclient=gws-wiz&ved=0ahUKEwig4d-jwPvxAhXhmuYKHepPBVIQ4dUDCA8&uact=5#wptab=s:H4sIAAAAAAAAAOMwe8S4gZFb4OWPe8JSyxgnrTl5jXE-I5docEF-UUlxcHJGakppTmpQanFpTkmxUCsjF2twcn5BqlCNUBWXAESRb2JJcoZ7UX5pgZArF09AYlFJZnJmQWIeUL2pkDGXIJJIQE5iZWqKkBwXN5KgEL8ULxe3fq6-gaGhZXFlQYaQPBc_UD41r8QnNTG9NDU4tUSIR4qLiwOkxqysLJtnEauWZ15KZqJCYolCSUaqgn9OZW5BZnKxQjHUwQqJeSkKRRBXAwD-Ym3i4wAAAA">Click here for more games</a>
+		<h1>With this, we end the news for today</h1>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
